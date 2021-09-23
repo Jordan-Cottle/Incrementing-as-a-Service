@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "iaas"
+version = "0.1.0"
+description = "Why count up locally inside your program when you can add an external dependency to do it for you?"
+authors = ["Jordan Cottle <jordancottle622@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.68.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
