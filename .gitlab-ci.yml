@@ -1,0 +1,9 @@
+# This is your ci/cd file
+# This defines jobs that the runner will execute when you push your code
+
+stages:
+  - build  # Build/package your application
+  - test  # Run tests and other analysis on your code
+  - deploy  # Put your application somewhere that it can be useful
+
+
